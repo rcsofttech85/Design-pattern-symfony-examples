@@ -8,6 +8,8 @@ parameters:
 services:
     # default configuration for services in *this* file
     _defaults:
+        bind:
+            iterable $paymentProvider: !tagged_iterator payment_provider
         autowire: true      # Automatically injects dependencies in your services.
         autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
 
