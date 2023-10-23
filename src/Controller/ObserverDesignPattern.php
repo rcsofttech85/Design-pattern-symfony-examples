@@ -2,8 +2,8 @@
 
 namespace App\Controller;
 
-use App\Observable\User;
-use App\Observers\UserObserver;
+use App\DesignPattern\BehavioralDesignPattern\ObserverDesignPattern\Observable\User;
+use App\DesignPattern\BehavioralDesignPattern\ObserverDesignPattern\Observers\UserObserver;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;

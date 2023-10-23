@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services;
+namespace App\DesignPattern\StructuralDesignPattern\Decorator;
 
 use Symfony\Component\DependencyInjection\Attribute\AsDecorator;
 use Symfony\Component\Serializer\SerializerInterface;

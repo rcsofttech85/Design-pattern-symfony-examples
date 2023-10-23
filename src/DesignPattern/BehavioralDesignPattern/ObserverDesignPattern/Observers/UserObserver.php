@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Observers;
+namespace App\DesignPattern\BehavioralDesignPattern\ObserverDesignPattern\Observers;
 
-use App\Observable\User;
+
+use App\DesignPattern\BehavioralDesignPattern\ObserverDesignPattern\Observable\User;
 use SplSubject;
 
 class UserObserver implements \SplObserver

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Observable;
+namespace App\DesignPattern\BehavioralDesignPattern\ObserverDesignPattern\Observable;
 
 use SplObserver;
 
